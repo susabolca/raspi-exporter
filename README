@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# exporter for raspiberry board.
+bash exporter.sh
+
