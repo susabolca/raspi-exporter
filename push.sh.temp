@@ -1,0 +1,7 @@
+#!/bin/bash
+
+login=user:passwd
+url=https://your-gateway-address
+job=push
+
+curl --user $login --data-binary @- $url/metrics/job/$job/instance/$(hostname)
